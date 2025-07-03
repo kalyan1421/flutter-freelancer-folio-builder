@@ -96,9 +96,10 @@ const HeroSection = () => {
               </div>
               <div className="text-sm font-mono space-y-2">
                 <div className="text-purple-400">import <span className="text-green-400">'package:flutter/material.dart'</span>;</div>
-                <div className="text-blue-400">class <span className="text-yellow-400">MyApp</span> extends <span className="text-yellow-400">StatelessWidget</span> {</div>
+                <div className="text-blue-400">class <span className="text-yellow-400">MyApp</span> extends <span className="text-yellow-400">StatelessWidget</span> {'{'}
+                </div>
                 <div className="text-gray-300 ml-4">@override</div>
-                <div className="text-blue-400 ml-4">Widget <span className="text-yellow-400">build</span>(BuildContext context) {</div>
+                <div className="text-blue-400 ml-4">Widget <span className="text-yellow-400">build</span>(BuildContext context) {'{'}</div>
                 <div className="text-gray-300 ml-8">return <span className="text-yellow-400">MaterialApp</span>(</div>
                 <div className="text-gray-300 ml-12">title: <span className="text-green-400">'Amazing App'</span>,</div>
                 <div className="text-gray-300 ml-12">theme: <span className="text-yellow-400">ThemeData</span>(</div>
@@ -106,8 +107,8 @@ const HeroSection = () => {
                 <div className="text-gray-300 ml-12">),</div>
                 <div className="text-gray-300 ml-12">home: <span className="text-yellow-400">HomePage</span>(),</div>
                 <div className="text-gray-300 ml-8">);</div>
-                <div className="text-gray-300 ml-4">}</div>
-                <div className="text-blue-400">}</div>
+                <div className="text-gray-300 ml-4">{'}'}</div>
+                <div className="text-blue-400">{'}'}</div>
               </div>
             </div>
           </div>
